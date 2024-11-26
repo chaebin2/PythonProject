@@ -44,3 +44,8 @@ a = ord('A')
 print(a)
 b = chr(65)
 print(b)
+
+'''
+주의사항: 부적절한 형변환 시도시 valueerror 발생
+        ex)int('3.14'), int('abc')
+'''
